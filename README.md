@@ -103,6 +103,7 @@ g. Find the average surface temperature (°C) for each day. You are required to 
 Task C processing Data Streams:
 In this task, we will implement multiple Apache Kafka producers to simulate the real-time streaming of the data which will be processed by Apache Spark Streaming client and then inserted into MongoDB. 
 The overall system architecture you will be developing is shown in the figure below. 
+```
 
 Event/Data Streaming              | Data Stream Processing | Data and Result Storage| Data and Result Distribution
 ___________                       |                        |                        |
@@ -117,6 +118,7 @@ ___________              |        |                        |                    
 Producer 3 |-------------|        |                        |                        |
 -----------                       |                        |                        |
 
+```
 
 1. Simulating real-time data using Apache Kafka Producers.   
   a. Event Producer 1: Program that loads all the data from climate_streaming.csv and randomly feed the data to the stream every 5 seconds in Assignment_TaskC_Producer1.ipynb. 
