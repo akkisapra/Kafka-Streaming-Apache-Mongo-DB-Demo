@@ -121,10 +121,10 @@ Producer 3 |-------------|        |                        |                    
 ```
 
 1. Simulating real-time data using Apache Kafka Producers.   
-  >-a. Event Producer 1: Program that loads all the data from climate_streaming.csv and randomly feed the data to the stream every 5 seconds in Assignment_TaskC_Producer1.ipynb. 
-  >-b. Event Producer 2: Program that loads all the data from hotspot_AQUA_streaming.csv and randomly feed the data to the stream every 10 - 30 seconds in Assignment_TaskC_Producer2.ipynb. 
+  >- a. Event Producer 1: Program that loads all the data from climate_streaming.csv and randomly feed the data to the stream every 5 seconds in Assignment_TaskC_Producer1.ipynb. 
+  >- b. Event Producer 2: Program that loads all the data from hotspot_AQUA_streaming.csv and randomly feed the data to the stream every 10 - 30 seconds in Assignment_TaskC_Producer2.ipynb. 
      AQUA is the satellite from NASA that reports latitude, longitude, confidence and surface temperature of a location.  
-  >-c. Event Producer 3: Program that loads all the data from hotspot_TERRA_streaming.csv and randomly feed the data to the stream every 10 - 30 seconds in Assignment_TaskC_Producer3.ipynb. 
+  >- c. Event Producer 3: Program that loads all the data from hotspot_TERRA_streaming.csv and randomly feed the data to the stream every 10 - 30 seconds in Assignment_TaskC_Producer3.ipynb. 
      TERRA is another satellite from NASA that reports latitude, longitude, confidence and surface temperature of a location. 
  
  
@@ -133,10 +133,12 @@ Producer 3 |-------------|        |                        |                    
        The streaming application will receive streaming data from all three producers. 
        
  3. Data Visualisation using MatPlotLib  
-    >-a. Streaming data visualization: For the incoming climate data plot the line graph of air temperature against arrival time with some interesting points such as maximum and minimum values.
-    >-b. Static data visualization: 
-         >>- i. Bar chart showing Records with the top 10 number of fires.
-          >>-ii. Fire locations in the map with air temperature, surface temperature, relative humidity and confidence (Merging two streams).
+    >- a. Streaming data visualization: For the incoming climate data plot the line graph of air temperature against arrival time with some interesting points such as maximum and minimum values.
+    >- b. Static data visualization: 
+    
+      >-   i. Bar chart showing Records with the top 10 number of fires.
+         
+       >-  ii. Fire locations in the map with air temperature, surface temperature, relative humidity and confidence (Merging two streams).
  
  
  
